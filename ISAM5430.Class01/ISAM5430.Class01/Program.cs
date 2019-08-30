@@ -16,10 +16,8 @@ namespace ISAM5430.Class01A
         {
             // declaring a variable as a string
             string person = "Michael"; // initializing a variable
-            Console.Write("Welcome to ");
-            Console.Write("C# Programming, ");
-            Console.Write(person);
-            Console.WriteLine(".");
+            // string interpolation
+            Console.WriteLine($"Welcome to C# Programming, {person}.");
         }
     }
 }
