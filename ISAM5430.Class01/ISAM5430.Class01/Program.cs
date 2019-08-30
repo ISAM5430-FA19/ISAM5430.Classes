@@ -14,7 +14,8 @@ namespace ISAM5430.Class01A
         // entry-point in the console app
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to C# Programming");
+            Console.Write("Welcome to ");
+            Console.WriteLine("C# Programming");
         }
     }
 }
