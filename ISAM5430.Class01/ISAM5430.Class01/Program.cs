@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace ISAM5430.Class01A
 {
+    // mikeywu5, borismo1992
     class Program
     {
         // entry-point in the console app
@@ -25,6 +26,30 @@ namespace ISAM5430.Class01A
             Console.WriteLine(string.Format("Welcome to C# Programming, {0}", person));
 
             Console.WriteLine("Welcome to C# Progrmming, " + person + ".");
+
+            /*
+             * Variables:
+             * Data types: 
+             * 
+             * simple types
+             *      int
+             *      bool (true/ false)
+             *      char ('a', '0' != 0)
+             *      double/float (IEEE 754)
+             *      decimal software-implementation of double/float
+             *      byte (binary contents)
+             * complex types
+             *      string
+             *      arrays (int[])
+             *      classes
+             *      struct
+             *      
+             *  Arithmetic Operators
+             *      +, -, *, /, %
+             *     
+             *     Boolean Operators:
+             *     ==, !=, >, <, >=, <=; &&, ||, !
+             */
         }
     }
 }
