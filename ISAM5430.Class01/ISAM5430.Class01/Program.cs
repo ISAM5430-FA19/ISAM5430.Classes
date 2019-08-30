@@ -14,8 +14,12 @@ namespace ISAM5430.Class01A
         // entry-point in the console app
         static void Main(string[] args)
         {
+            // declaring a variable as a string
+            string person = "Michael"; // initializing a variable
             Console.Write("Welcome to ");
-            Console.WriteLine("C# Programming");
+            Console.Write("C# Programming, ");
+            Console.Write(person);
+            Console.WriteLine(".");
         }
     }
 }
