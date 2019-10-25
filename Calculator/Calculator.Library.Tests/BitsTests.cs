@@ -41,6 +41,7 @@ namespace Calculator.Library.Tests
             Assert.AreEqual(expected, actual);
 
             // Also check for +, - bits as well.
+            // Check for uneven bits (e.g. the number of bits in a and b are different, e.g. b.Length > a.Length as well as a.Length > b.Length)
         }
     }
 }
