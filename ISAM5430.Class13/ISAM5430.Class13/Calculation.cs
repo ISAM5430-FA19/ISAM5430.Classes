@@ -10,14 +10,14 @@ namespace ConsoleApp1
         private int m;
         public Calculation(int m)
         {
-            this.m = m;
-        }
-        public IEnumerator<long> GetEnumerator()
-        {
             if (m < 1 || m > 17)
             {
                 throw new ArgumentOutOfRangeException(nameof(m));
             }
+            this.m = m;
+        }
+        public IEnumerator<long> GetEnumerator()
+        {
             long x = 1;
             // int m = 3;
             long d = 1;
